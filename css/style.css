@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #0020f4;
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+header img {
+  margin-left: 240px;
+  width: 115px;
+  height: 65px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 100px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover {
+  font-size: large;
+}
+
+.contact_text {
+  background-color: #ffffff;
+  color: #000;
+  font-weight: 600;
+  padding: 6px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.contact_text:hover {
+  padding: 5px 16px;
+}
+
+.cards {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.first_image {
+  max-width: 1195px;
+  width: 100%;
+  max-height: 600px;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.content h2 {
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.content_images {
+  display: flex;
+  gap: 25px;
+}
+
+.first_paragraph {
+  width: 951px;
+  height: 177px;
+  text-align: left;
+  margin-top: 60px;
+}
+
+.second_paragraph {
+  width: 951px;
+  height: 281px;
+  text-align: left;
+}
+
+.third_paragraph {
+  width: 951px;
+  height: 151px;
+  text-align: left;
+}
+
+.additional {
+  text-decoration: none;
+  color: white;
+  background-color: #0a22f4;
+  border-radius: 28px;
+  padding: 18px 77px;
+}
+
+.additional:hover {
+  padding: 20px 80px;
+}
+
+.contact {
+  color: white;
+}
+
+.contact p {
+  margin-top: 50px;
+  max-width: 60ch;
+  font-family: "BPG LE Studio 04 Caps", sans-serif;
+}
+
+.contacts {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.contact_map {
+  margin-top: 58px;
+}
+
+.contact_phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+}
+
+.phone_icon {
+  padding: 6px;
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  color: #0b2fff;
+}
+
+.mail_icon {
+  padding: 6px;
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  color: #0b2fff;
+}
+
+.contact_mail {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #0a22f4;
+  padding: 15px 30px;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 200px;
+  padding-bottom: 40px;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+.input input {
+  display: block;
+  width: 100%;
+  background: transparent;
+  color: white;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
+
+.input label {
+  display: block;
+  width: 100%;
+  color: white;
+}
+
+.input textarea {
+  width: 100%;
+  display: block;
+  background: transparent;
+  color: white;
+  margin-top: 20px;
+  height: 100px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
+
+.input_section {
+  max-width: 460px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact {
+  max-width: 460px;
+  width: 100%;
+}
