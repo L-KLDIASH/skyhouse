@@ -275,6 +275,10 @@ footer {
 }
 
 .burger {
+  display: none;
+}
+
+.burger_icon {
   width: 60px;
   height: 60px;
   margin: auto;
@@ -282,4 +286,61 @@ footer {
 }
 
 @media (max-width: 768px) {
+  ul {
+    display: none;
+  }
+
+  header {
+    justify-content: space-around;
+  }
+
+  .content_images {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .second_paragraph,
+  .third_paragraph {
+    display: none;
+  }
+
+  .footer_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+
+  textarea {
+    height: 30px;
+  }
+
+  .burger {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .burger_icon {
+    display: block;
+  }
+
+  .credits {
+    margin-top: 44px;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column-reverse;
+  }
+
+  .credits h4 {
+    margin-top: 40px;
+    opacity: 60%;
+  }
+
+  .credit_container {
+    margin: auto;
+  }
 }
