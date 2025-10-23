@@ -75,6 +75,7 @@ ul li a:hover {
 }
 
 .content h2 {
+  font-family: "Helvetica Neue", sans-serif;
   margin-bottom: 60px;
   margin-top: 30px;
 }
@@ -85,6 +86,7 @@ ul li a:hover {
 }
 
 .first_paragraph {
+  font-family: "Helvetica Neue", sans-serif;
   width: 951px;
   height: 177px;
   text-align: left;
@@ -92,18 +94,22 @@ ul li a:hover {
 }
 
 .second_paragraph {
+  font-family: "Helvetica Neue", sans-serif;
   width: 951px;
   height: 281px;
   text-align: left;
 }
 
 .third_paragraph {
+  font-family: "Helvetica Neue", sans-serif;
   width: 951px;
   height: 151px;
   text-align: left;
 }
 
 .additional {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
   text-decoration: none;
   color: white;
   background-color: #0a22f4;
@@ -141,6 +147,7 @@ ul li a:hover {
   align-items: center;
   gap: 16px;
   text-decoration: none;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .phone_icon {
@@ -170,6 +177,7 @@ ul li a:hover {
   align-items: center;
   gap: 16px;
   text-decoration: none;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 footer {
@@ -192,6 +200,7 @@ footer {
   display: block;
   width: 100%;
   background: transparent;
+  outline: none;
   color: white;
   margin-top: 20px;
   border: none;
@@ -226,4 +235,37 @@ footer {
 .contact {
   max-width: 460px;
   width: 100%;
+}
+
+.input_section button {
+  padding: 10px 18px;
+  border-radius: 28px;
+  width: 151px;
+  height: 55px;
+  align-self: flex-end;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.input_section button:hover {
+  font-size: large;
+  border-bottom: 3px black solid;
+}
+
+.credits {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.credit_container {
+  margin-right: 150px;
+}
+
+.credit_container .smart {
+  width: 121px;
+  height: 35px;
+  margin-left: 30px;
 }
